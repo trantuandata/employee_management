@@ -1,0 +1,18 @@
+[
+    {
+        "employee_id": "NV001",
+        "income_after_tax": 22357100
+    },
+    {
+        "employee_id": "NV003",
+        "income_after_tax": 21139900
+    },
+    {
+        "employee_id": "NV002",
+        "income_after_tax": 29248600
+    },
+    {
+        "employee_id": "NV005",
+        "income_after_tax": 5461290
+    }
+]

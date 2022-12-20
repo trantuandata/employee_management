@@ -1,0 +1,46 @@
+[
+    {
+        "employee_id": "NV001",
+        "department_id": "SALES",
+        "position": "QL",
+        "name": "Trần Tuấn",
+        "salary": 400000,
+        "working_day": "25",
+        "working_perform": "1.5",
+        "bonus": 10000000,
+        "late_day": "1"
+    },
+    {
+        "employee_id": "NV003",
+        "department_id": "IT",
+        "position": "QL",
+        "name": "Xuân Thủy",
+        "salary": 350000,
+        "working_day": 26,
+        "working_perform": 1.3,
+        "bonus": 11000000,
+        "late_day": 3
+    },
+    {
+        "employee_id": "NV002",
+        "department_id": "SALES",
+        "position": "QL",
+        "name": "Huyền",
+        "salary": 300000,
+        "working_day": 27,
+        "working_perform": 1.5,
+        "bonus": 20000000,
+        "late_day": 1
+    },
+    {
+        "employee_id": "NV005",
+        "department_id": "IT",
+        "position": "NV",
+        "name": "Ngoc",
+        "salary": 200000,
+        "working_day": 15,
+        "working_perform": 1.5,
+        "bonus": 1500000,
+        "late_day": 1
+    }
+]

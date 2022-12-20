@@ -1,0 +1,18 @@
+[
+    {
+        "department_id": "MARKETING",
+        "department_bonus": 600000
+    },
+    {
+        "department_id": "SALES",
+        "department_bonus": 500000
+    },
+    {
+        "department_id": "ACCOUNTING",
+        "department_bonus": 800000
+    },
+    {
+        "department_id": "IT",
+        "department_bonus": 800000
+    }
+]
