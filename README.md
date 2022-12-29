@@ -7,11 +7,14 @@ Tên Tiếng Anh: Employee Management
 Dự án thể hiện một số kỹ thuật trong lập trình Python:
 - Lập trình hướng đối tượng (OOP)
 - Làm việc với các định dạng dữ liệu: xml, json
-và các kiểu dữ liệu: dictionary, list
+- Làm việc với các kiểu dữ liệu: dictionary, list
 - Crawl dữ liệu từ flat file và website 
 - Làm việc với module trong standard library của Python như:
+ 
 -- urllib.request
+
 -- xml.etree.ElementTree
+
 -- sys
 
 __2. Tổng quan chương trình__
@@ -23,16 +26,15 @@ Chương trình giải quyết 2 yêu cầu chính:
 ___2.1 Quản lý thông tin nhân viên___
 
 Thông tin nhân viên bao gồm:
->Mã nhân viên
-Mã bộ phận
-Chức vụ
-Họ và tên
-Lương theo ngày
-Số ngày làm việc
-Hệ số hiệu quả
-Thưởng
-Số ngày đi muộn
->
+>- Mã nhân viên
+>- Mã bộ phận
+>- Chức vụ
+>- Họ và tên
+>- Lương theo ngày
+>- Số ngày làm việc
+>- Hệ số hiệu quả
+>- Thưởng
+>- Số ngày đi muộn
 
 ___2.2 Quản lý tiền lương nhân viên___
 
@@ -49,22 +51,30 @@ Các thành phần tính lương nhân viên bao gồm:
 __3. Các tính năng của chương trình__
 
 >**Menu:**
+
 >**1.** Hiển thị danh sách nhân viên
+
 >**2.** Hiển thị danh sách bộ phận
+
 >**3.** Thêm nhân viên mới
+
 >**4.** Xóa nhân viên theo ID
+
 >**5.** Xóa bộ phận theo ID
+
 >**6.** Hiển thị bảng lương
+
 >**7.** Chỉnh sửa nhân viên
+
 >**8.** Thoát
 
 __4. Hướng dẫn sử dụng chương trình__
 
 Có 4 file được đóng gói với nhau:
-_departments.json_: lưu trữ thông tin phòng ban
-_employees.json_: lưu trữ thông tin nhân viên
-_income.json_: lưu trữ thông tin lương thực nhận của nhân viên.
-_main.py_: file source code chương trình
+>- _departments.json_: lưu trữ thông tin phòng ban
+>- _employees.json_: lưu trữ thông tin nhân viên
+>- _income.json_: lưu trữ thông tin lương thực nhận của nhân viên.
+>- _main.py_: file source code chương trình
 
 Tải tất cả 4 file về chung 1 folder rồi chạy main.py trên 1 IDE hay 1 Code editor.
 
