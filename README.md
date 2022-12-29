@@ -1,4 +1,4 @@
-##Giới thiệu
+##1. Giới thiệu
 
 Đây là một dự án cá nhân được viết bằng ngôn ngữ Python3.
 Tên chương trình: Quản lý nhân viên
@@ -13,13 +13,13 @@ và các kiểu dữ liệu: dictionary, list
 -- xml.etree.ElementTree
 -- sys
 
-##Tổng quan chương trình
+##2. Tổng quan chương trình
 
 Chương trình giải quyết 2 yêu cầu chính:
 - Quản lý thông tin nhân viên
 - Quản lý tiền lương nhân viên
 
-###Quản lý thông tin nhân viên
+###2.1 Quản lý thông tin nhân viên
 Thông tin nhân viên bao gồm:
 >Mã nhân viên
 Mã bộ phận
@@ -32,7 +32,7 @@ Thưởng
 Số ngày đi muộn
 >
 
-###Quản lý tiền lương nhân viên
+###2.2 Quản lý tiền lương nhân viên
 Các thành phần tính lương nhân viên bao gồm:
 >- Mức lương trả theo ngày
 >- Số ngày làm việc
@@ -43,7 +43,7 @@ Các thành phần tính lương nhân viên bao gồm:
 >- Thuế thu nhập cá nhân
 >**>>** Kết quả cho ra **Lương thực nhận** của mỗi nhân viên
 
-##Các tính năng của chương trình
+##3. Các tính năng của chương trình
 >**Menu:**
 >**1.** Hiển thị danh sách nhân viên
 >**2.** Hiển thị danh sách bộ phận
@@ -54,7 +54,7 @@ Các thành phần tính lương nhân viên bao gồm:
 >**7.** Chỉnh sửa nhân viên
 >**8.** Thoát
 
-##Hướng dẫn sử dụng chương trình
+##4. Hướng dẫn sử dụng chương trình
 Có 4 file được đóng gói với nhau:
 _departments.json_: lưu trữ thông tin phòng ban
 _employees.json_: lưu trữ thông tin nhân viên
