@@ -1,4 +1,5 @@
-##Giới thiệu 
+##Giới thiệu
+
 Đây là một dự án cá nhân được viết bằng ngôn ngữ Python3.
 Tên chương trình: Quản lý nhân viên
 Tên Tiếng Anh: Employee Management
