@@ -10,12 +10,9 @@ Dự án thể hiện một số kỹ thuật trong lập trình Python:
 - Làm việc với các kiểu dữ liệu: dictionary, list
 - Crawl dữ liệu từ flat file và website 
 - Làm việc với module trong standard library của Python như:
- 
--- urllib.request
-
--- xml.etree.ElementTree
-
--- sys
+  - _urllib.request_
+  - _xml.etree.ElementTree_
+  - _sys_
 
 __2. Tổng quan chương trình__
 
