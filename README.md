@@ -65,5 +65,7 @@ Tải tất cả 4 file về chung 1 folder rồi chạy main.py trên 1 IDE hay
 
 *Note: Chương trình khi load thông tin sẽ lấy dữ liệu từ các file .json ở trên.
 Riêng thông tin về tính thuế thu nhập và phạt đi muộn được lấy từ website.
+
 Phạt đi muộn: https://bit.ly/3VtWiOL
+
 Tính thuế thu nhập: https://bit.ly/3IhJM1Q 
