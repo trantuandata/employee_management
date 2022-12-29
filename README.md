@@ -43,7 +43,7 @@ Các thành phần tính lương nhân viên bao gồm:
 >- Thưởng
 >- Đóng bảo hiểm
 >- Thuế thu nhập cá nhân
->**>>** Kết quả cho ra **Lương thực nhận** của mỗi nhân viên
+>- **>>** Kết quả cho ra **Lương thực nhận** của mỗi nhân viên
 
 __3. Các tính năng của chương trình__
 
