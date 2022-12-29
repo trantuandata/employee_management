@@ -21,6 +21,7 @@ Chương trình giải quyết 2 yêu cầu chính:
 - Quản lý tiền lương nhân viên
 
 ___2.1 Quản lý thông tin nhân viên___
+
 Thông tin nhân viên bao gồm:
 >Mã nhân viên
 Mã bộ phận
