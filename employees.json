@@ -2,13 +2,13 @@
     {
         "employee_id": "NV001",
         "department_id": "SALES",
-        "position": "QL",
-        "name": "Trần Tuấn",
-        "salary": 400000,
-        "working_day": "25",
+        "position": "NV",
+        "name": "Tuấn",
+        "salary": 3000000,
+        "working_day": "20",
         "working_perform": "1.5",
-        "bonus": 10000000,
-        "late_day": "1"
+        "bonus": 1000000,
+        "late_day": "2"
     },
     {
         "employee_id": "NV003",

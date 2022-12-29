@@ -12,7 +12,7 @@ class Employees:
         self.employee_position = employee_position      # Chức vụ (NV/QL)
         self.employee_bonus = employee_bonus            # Thưởng nhân viên
         self.department_id = department_id              # Mã bộ phận
-        self.salary_base = salary_base                  # Hệ số lương cơ bản
+        self.salary_base = salary_base                  # Lương theo ngày cơ bản
         self.working_days = working_days                # Số ngày làm việc
         self.working_performance = working_performance  # Hệ số hiệu quả
         self.late_coming_days = late_coming_days        # Số ngày đi muộn
@@ -36,7 +36,7 @@ employee_bonus = int()
 department_id = ''
 salary_base = int()
 working_days = int()
-working_performance = float()
+working_performance = float() #hệ số hiệu quả
 late_coming_days = int()
 department_bonus = int()
 
@@ -206,7 +206,7 @@ MENU_SHOW = """Nhập số tương ứng
 4. Xóa nhân viên theo ID
 5. Xóa bộ phận theo ID
 6. Hiển thị bảng lương
-7. Chỉnh sửa nhân viên (Nâng cao)
+7. Chỉnh sửa nhân viên
 8. Thoát
 Lựa chọn của bạn: """
 
@@ -243,7 +243,7 @@ def Show_Employees_List():
         print(f"Mã bộ phận: {i['department_id']}")
         print(f"Chức vụ: {i['position']}")
         print(f"Họ và tên: {i['name']}")
-        print(f"Hệ số lương: {format(i['salary'], ',')}")
+        print(f"Lương theo ngày: {format(i['salary'], ',')}/ngày")
         print(f"Số ngày làm việc: {i['working_day']}")
         print(f"Hệ số hiệu quả: {i['working_perform']}")
         print(f"Thưởng: {format(i['bonus'],',')}")
@@ -339,7 +339,7 @@ def Add_New_Employee():
             employee_info.employee_name = input('Nhập họ tên nhân viên: ')
         name1 = (len(employee_info.employee_name) == 0)
 
-        #Nhập hệ số lương
+        #Nhập lương theo ngày
     employee_info.salary_base = input('Nhập lương cơ bản: ')
     salary1 = (len(str(employee_info.salary_base)) == 0)
     while salary1:
@@ -507,7 +507,7 @@ Thu nhập thực nhận: {}
     else:
         print("Danh sách bảng lương trống")
 
-    #5.7. Chỉnh sửa nhân viên (Nâng cao)
+    #5.7. Chỉnh sửa nhân viên
 def Modify_Employee():
     employee_info.employee_id = input('Nhập mã nhân viên: ').upper()
     for emp_data in employees_file:
@@ -590,7 +590,7 @@ def Modify_Employee():
             print(f"Mã nhân viên: {emp_data['employee_id']}")
             print(f"Chức vụ: {emp_data['position']}")
             print(f"Họ và tên: {emp_data['name']}")
-            print(f"Hệ số lương: {format(emp_data['salary'],',')}")
+            print(f"Lương theo ngày: {format(emp_data['salary'],',')}/ngày")
             print(f"Số ngày làm việc: {emp_data['working_day']}")
             print(f"Hệ số hiệu quả: {emp_data['working_perform']}")
             print(f"Thưởng: {format(emp_data['bonus'],',')}")
